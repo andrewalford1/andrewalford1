@@ -1,0 +1,14 @@
+.a4-page {
+  background: #f5f2e8;
+  width: 21cm;
+  aspect-ratio: 1 / 1.4142;
+  position: relative;
+  margin: 0 auto;
+  padding: 2.54cm;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+
+  h1 {
+    color: pink;
+  }
+}
