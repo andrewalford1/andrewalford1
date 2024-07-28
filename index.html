@@ -11,7 +11,11 @@
         Andrew Alford
     </h1>
     <div class="flex flex-row items-center justify-around basis-full">
-        <img src="res/brick-alley-badge.png" alt="Description of Image" class="h-32 w-32">
+        <div class="flex flex-col gap-2">
+            <img src="res/brick-alley-badge.png" alt="Description of Image" class="h-32 w-32 self-center">
+            <p class="text-white text-center">Lego affilated volunteer</p>
+            <button class="btn-pill" id="openButton">Learn more</button>
+        </div>
         <img src="res/ramblers-badge.png" alt="Description of Image" class="h-32 w-32">
         <img src="res/c-charp-certification-badge.png" alt="Description of Image" class="h-32 w-32">
         <img src="res/scrum-master-bage.png" alt="Description of Image" class="h-32 w-32">
@@ -20,6 +24,36 @@
 
 <div class="a4-page" id="markdown-content"></div>
 
+<dialog id="brick-alley-modal">
+    <p class="flex-grow">This modal dialog has a groovy backdrop!</p>
+    <button autofocus id="closeButton" class="btn-pill">Close</button>
+</dialog>
+
 <script src="script.js"></script>
+
+<script>
+const dialog = document.getElementById("brick-alley-modal");
+const showButton = document.getElementById("openButton");
+const closeButton = document.getElementById("closeButton");
+
+// "Show the dialog" button opens the dialog modally
+showButton.addEventListener("click", () => {
+  dialog.showModal();
+});
+
+function openBrickAlleyModal() {
+    dialog.showModal();
+}
+
+function closeBrickAlleyModal() {
+    dialog.close();
+}
+
+// "Close" button closes the dialog
+closeButton.addEventListener("click", () => {
+  dialog.close();
+});
+
+</script>
 </body>
 </html>

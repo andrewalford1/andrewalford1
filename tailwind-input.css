@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    dialog[open] {
+        @apply backdrop:bg-purple-200/50 bg-black flex flex-col h-3/4 w-2/4 outline outline-white text-white rounded-lg p-5
+    }
+}
+
+@layer components {
+    .btn-pill {
+        @apply hover:bg-neutral-200 bg-neutral-100 outline outline-black text-black font-bold py-1 rounded-full
+    }
+}
+
