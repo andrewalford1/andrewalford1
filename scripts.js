@@ -3,20 +3,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const highlightsLink = document.getElementById('highlights-link');
     const projectsLink = document.getElementById('projects-link');
 
-    // Load initial content
-    loadContent('highlights.html');
+    // Load content based on current URL
+    loadContent(location.pathname);
 
-    highlightsLink.addEventListener('click', async (e) => {
+    highlightsLink.addEventListener('click', (e) => {
         e.preventDefault();
-        await loadContent('highlights.html');
+        history.pushState({ page: 'highlights' }, '', '/highlights');
+        loadContent('/highlights');
     });
 
-    projectsLink.addEventListener('click', async (e) => {
+    projectsLink.addEventListener('click', (e) => {
         e.preventDefault();
-        await loadContent('projects.html');
+        history.pushState({ page: 'projects' }, '', '/projects');
+        loadContent('/projects');
     });
 
-    async function loadContent(file) {
+    // Handle the popstate event (back/forward buttons)
+    window.addEventListener('popstate', (e) => {
+        loadContent(location.pathname);
+    });
+
+    async function loadContent(path) {
+        let file;
+        if (path === '/projects') {
+            file = 'projects.html';
+        } else {
+            file = 'highlights.html';
+        }
+        
         console.log(`Loading content from: ${file}`);
         try {
             const response = await fetch(file);
