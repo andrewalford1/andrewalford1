@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     async function loadHome() {
-        await loadContent('home.html');
+        console.log(homeLink);
+        await loadContent('home.html', homeLink);
         // Fetch the README.md file (my CV) and embed its content as HTML
         fetch('README.md')
         .then(response => response.text())
@@ -28,10 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadProjects() {
-        await loadContent('projects.html');
+        console.log(projectsLink);
+        await loadContent('projects.html', projectsLink);
     }
 
-    async function loadContent(file) {
+    async function loadContent(file, activeLink) {
         console.log(`Loading content from: ${file}`);
         try {
             const response = await fetch(file);
@@ -41,8 +43,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.text();
             console.log('Content loaded successfully:', data);
             content.innerHTML = data;
+            updateActiveLink(activeLink);
         } catch (error) {
             console.error('There was a problem with the fetch operation:', error);
         }
+    }
+
+    function updateActiveLink(activeLink) {
+        // Remove active class from all links
+        homeLink.classList.remove('font-bold', 'underline');
+        projectsLink.classList.remove('font-bold', 'underline');
+
+        // Add active class to the clicked link
+        activeLink.classList.add('font-bold', 'underline');
     }
 });

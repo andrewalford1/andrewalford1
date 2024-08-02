@@ -5,18 +5,18 @@
     <link href="tailwind-output.css" rel="stylesheet">
     <link href="embedded-cv.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-to-r from-black to-slate-700">
-<div class="flex flex-col h-80 mt-8">
+<body class="bg-gradient-to-r from-black to-slate-700 overflow-y-scroll">
+<div class="flex flex-col h-96 mt-8">
     <h1 class="text-white text-4xl font-bold flex items-center justify-center">
         Andrew Alford
     </h1>
-    <nav class="text-white">
-        <ul>
-            <li><a href="#" id="home-link">Home</a></li>
-            <li><a href="#" id="projects-link">Projects</a></li>
+    <nav class="flex items-center justify-center basis-full">
+        <ul class="flex flex-row gap-8">
+            <li><a href="#" id="home-link" class="text-white text-2xl hover:text-neutral-200">Home</a></li>
+            <li><a href="#" id="projects-link" class="text-white text-2xl hover:text-neutral-200">Projects</a></li>
         </ul>
     </nav>
-    <div class="flex flex-row items-center justify-around basis-full">
+    <div class="flex flex-row items-center justify-around basis-full mb-8">
         <div class="flex flex-col gap-2">
             <img src="res/brick-alley-badge.png" alt="Description of Image" class="h-32 w-32 self-center">
             <p class="text-white text-center">Lego affilated volunteer</p>
