@@ -617,10 +617,6 @@ dialog[open]::backdrop {
   height: 8rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-96 {
   height: 24rem;
 }
@@ -629,24 +625,16 @@ dialog[open]::backdrop {
   height: 100%;
 }
 
-.w-16 {
-  width: 4rem;
+.w-24 {
+  width: 6rem;
 }
 
 .w-32 {
   width: 8rem;
 }
 
-.w-8 {
-  width: 2rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .flex-1 {
@@ -685,10 +673,6 @@ dialog[open]::backdrop {
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
@@ -719,10 +703,6 @@ dialog[open]::backdrop {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
 }
 
-.fill-white {
-  fill: #fff;
-}
-
 .text-center {
   text-align: center;
 }
@@ -749,10 +729,6 @@ dialog[open]::backdrop {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:fill-neutral-200:hover {
-  fill: #e5e5e5;
 }
 
 .hover\:text-neutral-200:hover {

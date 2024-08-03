@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsLink = document.getElementById('projects-link');
 
     // Load initial content
-    loadHome();
+    loadHome(1);
 
     homeLink.addEventListener('click', async (e) => {
         e.preventDefault();
-        await loadHome();
+        await loadHome(1);
     });
 
     projectsLink.addEventListener('click', async (e) => {
@@ -16,19 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
         await loadProjects();
     });
 
-    async function loadHome() {
+    async function loadHome(cvPageNumber) {
         console.log(homeLink);
         await loadContent('home.html', homeLink);
-
-        addScrollEventListeners();
-
-        // Fetch the README.md file (my CV) and embed its content as HTML
-        fetch('README.md')
-        .then(response => response.text())
-        .then(htmlContent => {
-        document.getElementById('markdown-content').innerHTML = htmlContent;
-        })
-        .catch(error => console.error('Error fetching the README file:', error));
+        updateCVpageButtonStates();
+        loadCVContent(cvPageNumber);
     }
 
     async function loadProjects() {
@@ -52,6 +44,38 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function loadCVContent(pageNumber) {
+        // Fetch the README.md file (my CV) and embed its content as HTML
+        fetch('README.md')
+        .then(response => response.text())
+        .then(htmlContent => {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            let selectedPageContent = '';
+            
+            if (pageNumber == 1) {
+                selectedPageContent = tempDiv.querySelector('#pageOneContent').innerHTML;
+            }
+            
+            if (pageNumber == 2) {
+                selectedPageContent = tempDiv.querySelector('#pageTwoContent').innerHTML;
+            }
+
+            document.getElementById('markdown-content').innerHTML = selectedPageContent;
+        })
+        .catch(error => console.error('Error fetching the README file:', error));
+    }
+
+    window.changeCVPage = function(pageNumber) {
+        
+        loadCVContent(pageNumber);
+        
+        window.scroll({
+            top: 0,
+            behavior: 'smooth'
+        });        
+    }
+
     function updateActiveLink(activeLink) {
         // Remove active class from all links
         homeLink.classList.remove('font-bold', 'underline');
@@ -61,18 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         activeLink.classList.add('font-bold', 'underline');
     }
 
-    window.changeCVPage = function(pageNumber) {
-        if (pageNumber == 2) {
-
-            console.error('I am number 2')
-        }
-        window.scroll({
-            top: 0,
-            behavior: 'smooth'
-        });        
-    }
-
-    function addScrollEventListeners() {
+    function updateCVpageButtonStates() {
         const page1Button = document.getElementById('pageOneBtn');
         const page2Button = document.getElementById('pageTwoBtn');
 
