@@ -10,7 +10,7 @@
 
 @layer components {
     .btn-pill {
-        @apply hover:bg-neutral-200 bg-neutral-100 text-black font-bold py-1 rounded-full
+        @apply hover:bg-neutral-200 bg-neutral-100 text-black font-bold py-1 rounded-full disabled:bg-gray-400 disabled:text-white disabled:hover:bg-gray-400
     }
 }
 

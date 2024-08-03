@@ -585,40 +585,68 @@ dialog[open]::backdrop {
   background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.btn-pill:disabled {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.btn-pill:hover:disabled {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .mb-8 {
   margin-bottom: 2rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-32 {
   height: 8rem;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-4 {
-  height: 1rem;
+.h-8 {
+  height: 2rem;
 }
 
 .h-96 {
   height: 24rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
 .w-32 {
   width: 8rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .flex-1 {
@@ -657,12 +685,12 @@ dialog[open]::backdrop {
   gap: 0.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-8 {
@@ -691,8 +719,17 @@ dialog[open]::backdrop {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
 }
 
+.fill-white {
+  fill: #fff;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -705,11 +742,6 @@ dialog[open]::backdrop {
   line-height: 2.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -719,25 +751,8 @@ dialog[open]::backdrop {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
-}
-
-.underline-offset-8 {
-  text-underline-offset: 8px;
-}
-
-.underline-offset-4 {
-  text-underline-offset: 4px;
-}
-
-.hover\:bg-neutral-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+.hover\:fill-neutral-200:hover {
+  fill: #e5e5e5;
 }
 
 .hover\:text-neutral-200:hover {

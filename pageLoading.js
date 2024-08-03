@@ -19,6 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadHome() {
         console.log(homeLink);
         await loadContent('home.html', homeLink);
+
+        addScrollEventListeners();
+
         // Fetch the README.md file (my CV) and embed its content as HTML
         fetch('README.md')
         .then(response => response.text())
@@ -56,5 +59,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Add active class to the clicked link
         activeLink.classList.add('font-bold', 'underline');
+    }
+
+    window.changeCVPage = function(pageNumber) {
+        if (pageNumber == 2) {
+
+            console.error('I am number 2')
+        }
+        window.scroll({
+            top: 0,
+            behavior: 'smooth'
+        });        
+    }
+
+    function addScrollEventListeners() {
+        const page1Button = document.getElementById('pageOneBtn');
+        const page2Button = document.getElementById('pageTwoBtn');
+
+        if (page1Button && page2Button) {
+            page1Button.addEventListener('click', () => {
+                page1Button.disabled = true;
+                page2Button.disabled = false;
+            });
+
+            page2Button.addEventListener('click', () => {
+                page1Button.disabled = false;
+                page2Button.disabled = true;
+            });
+        }
     }
 });
