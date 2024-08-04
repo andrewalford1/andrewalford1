@@ -101,4 +101,31 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+
+    // Function to fetch and print the entire CV content
+    function printFullCV() {
+        fetch('README.md')
+            .then(response => response.text())
+            .then(htmlContent => {
+                // Create a new window for printing
+                const printWindow = window.open('', '_blank');
+                printWindow.document.write(`
+                    <html>
+                    <head>
+                        <title>Okay this is kind of a hack</title>
+                        <link rel="stylesheet" href="embedded-cv.css">
+                    </head>
+                    <body class="cv-content">
+                        ${htmlContent}
+                    </body>
+                    </html>
+                `);
+                printWindow.document.close();
+                printWindow.print();
+            })
+            .catch(error => console.error('Error fetching the README file:', error));
+    }
+
+    // Add event listener to the print button
+    document.getElementById('print-btn').addEventListener('click', printFullCV);
 });
