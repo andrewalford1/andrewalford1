@@ -731,6 +731,11 @@ dialog[open]::backdrop {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-pink-500 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
 .hover\:text-neutral-200:hover {
   --tw-text-opacity: 1;
   color: rgb(229 229 229 / var(--tw-text-opacity));
