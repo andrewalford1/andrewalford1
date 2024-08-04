@@ -1,11 +1,6 @@
 
-<head>
-    <link href="tailwind-output.css" rel="stylesheet">
-</head>
-<body>
 <div id="pageOneContent">
-
-  <h1 class="text-pink-500 text-4xl font-bold">Andrew Alford TEST README</h1>
+  <h1>Andrew Alford</h1>
   <p>
     Primarily, I am a dotnet desktop developer working in both the front-end and
     back-end of industry leading solutions for the Measurements Insights sector
@@ -95,5 +90,3 @@
 <div>Northumbria University - Sept 2016 - July 2019</div>
 
 </div>
-
-</body>
