@@ -83,6 +83,9 @@
 
   <h2>Qualifications</h2>
 
+  <h3>Certifed Scrum Master</h3>
+  <div>Scrum Alliance - April 2024</div>
+
   <h3>Exam 70-483: Programming in C#</h3>
   <div>Microsoft Certification - Feb 2020</div>
 

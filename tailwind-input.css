@@ -6,6 +6,24 @@
     dialog[open] {
         @apply backdrop:bg-black/75 bg-black h-3/4 w-4/6 outline outline-white rounded-lg p-5
     }
+
+    .cv-content {
+
+        h1 {
+          @apply text-3xl;
+          color: red;
+        }
+      
+        h2 {
+          @apply text-2xl;
+          color: green;
+        }
+      
+        h3 {
+          @apply text-xl;
+          color: blue;
+        }
+      }
 }
 
 @layer components {
