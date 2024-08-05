@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
     const homeLink = document.getElementById('home-link');
-    const projectsLink = document.getElementById('projects-link');
+    const portfolioLink = document.getElementById('portfolio-link');
 
     // Load initial content
     loadHome(1);
@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
         await loadHome(1);
     });
 
-    projectsLink.addEventListener('click', async (e) => {
+    portfolioLink.addEventListener('click', async (e) => {
         e.preventDefault();
-        await loadProjects();
+        await loadportfolio();
     });
 
     async function loadHome(cvPageNumber) {
@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
         loadCVContent(cvPageNumber);
     }
 
-    async function loadProjects() {
-        console.log(projectsLink);
-        await loadContent('projects.html', projectsLink);
+    async function loadportfolio() {
+        console.log(portfolioLink);
+        await loadContent('portfolio.html', portfolioLink);
     }
 
     async function loadContent(file, activeLink) {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateActiveLink(activeLink) {
         // Remove active class from all links
         homeLink.classList.remove('font-bold', 'underline');
-        projectsLink.classList.remove('font-bold', 'underline');
+        portfolioLink.classList.remove('font-bold', 'underline');
 
         // Add active class to the clicked link
         activeLink.classList.add('font-bold', 'underline');
