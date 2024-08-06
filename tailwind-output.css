@@ -489,6 +489,11 @@ dialog[open]::backdrop {
   h3 {
     font-weight: 700;
   }
+  h3 {
+    span {
+      font-weight: 400;
+    }
+  }
   h4 {
     font-size: 1.125rem;
     line-height: 1.75rem;

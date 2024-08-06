@@ -26,6 +26,10 @@
       
         h3 {
           @apply text-xl font-bold;
+
+          span {
+            @apply font-normal;
+          }
         }
 
         h4 {

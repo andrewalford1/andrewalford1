@@ -9,19 +9,23 @@
     <ul>
       <li>C#</li>
       <li>WPF</li>
+      <li>Xamarin</li>
+      <li>Blazor</li>
       <li>ASP.net</li>
       <li>Angular</li>
       <li>Tailwind</li>
       <li>Scrum</li>
-      <li>Azure DevOps</li>
+      <li>Azure</li>
+      <li>DevOps</li>
+      <li>CI/CD</li>
     </ul>
   </div>
 
 
   <address>
     <ul>
-      <li><a href="tel:+1234567890">07450746002</a></li>
-      <li><a href="mailto:johndoe@example.com">andrewalford1@outlook.com</a></li>
+      <li><a href="tel:07450746002">07450746002</a></li>
+      <li><a href="mailto:andrewalford1@outlook.com">andrewalford1@outlook.com</a></li>
       <li><a href="https://andrewalford1.github.io/andrewalford1">https://andrewalford1.github.io/andrewalford1</a></li>
     </ul>
   </address>
@@ -33,11 +37,7 @@
   <h2>Professional Experience & volunteering</h2>
   <div>  
     <hgroup>
-      <h3>Tracerco, <span>Software Engineer</span></h3>
-      <h4>July 2019 - Present | Billingham, Teeside</h4>
-    </hgroup>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <h3>Tracerco, <span>Software Engineer</span></ y to collect data on the inner workings of distilation towers, engineers then use this data to create reports on the state of the towers with recomendations for any maintanence and repairs. My prototype took the report data and used D3.js to create an interactable tower drawing embedded within a web portal, allowing customers to fully visualise and interpret the engineer's findings. Following my contributions, the Insights Platform has gone on to become one of Tracerco's most successful products and has recieved significant recognition by winning the "Teesside Innovation Award" in July 2023.
     </p>
   </div>
 
