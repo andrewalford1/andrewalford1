@@ -1,95 +1,66 @@
 
 <div id="pageOneContent">
-  <h1>Andrew Alford</h1>
-  <p>
-    Primarily, I am a dotnet desktop developer working in both the front-end and
-    back-end of industry leading solutions for the Measurements Insights sector
-    with over three years professional experience. Work aside, I enjoy hiking,
-    climbing, and creative hobbies such as knitting & building Lego.
-  </p>
+  <hgroup>
+    <h1>Andrew Alford</h1>
+    <h2>Full-stack software engineer</h2>
+  </hgroup>
 
-  <h2>Skills</h2>
+  <p>Introductory text</p>
 
-  <h3>Languages</h3>
+  <address>
+    <p><a href="tel:+1234567890">07450746002</a></p>
+    <p><a href="mailto:johndoe@example.com">andrewalford1@outlook.com</a></p>
+    <p><a href="https://andrewalford1.github.io/andrewalford1">https://andrewalford1.github.io/andrewalford1</a></p>
+  </address>
+
   <ul>
     <li>C#</li>
-    <li>XAML</li>
-    <li>TypeScript</li>
-  </ul>
-
-  <h3>Tools</h3>
-  <ul>
+    <li>WPF</li>
+    <li>ASP.net</li>
+    <li>Angular</li>
+    <li>Tailwind</li>
+    <li>Scrum</li>
     <li>Azure DevOps</li>
-    <li>Visual Studio</li>
-    <li>VsCode</li>
   </ul>
 
-  <h3>Technologies</h3>
-  <ul>
-    <li>Dotnet Desktop Desktop Development</li>
-    <li>D3.js Web Animations</li>
-    <li>Dotnet Mobile Development</li>
-  </ul>
+  <h2>Professional Experience & volunteering</h2>
+  <div>  
+    <hgroup>
+      <h3>Tracerco, <span>Software Engineer</span></h3>
+      <h4>July 2019 - Present | Billingham, Teeside</h4>
+    </hgroup>
+    <p>Roles & stuff at this job</p>
+  </div>
 
+  <div>  
+    <hgroup>
+      <h3>Northumbria Walking Group, <span>Digital Secretary</span></h3>
+      <h4>March 2023 - Present | volunteer role</h4>
+    </hgroup>
+    <p>Roles & stuff</p>
+  </div>
+
+  <div>  
+    <hgroup>
+      <h3>Brick Alley, <span>Group Member</span></h3>
+      <h4>June 2022 - Present | volunteer role</h4>
+    </hgroup>
+    <p>Roles & stuff</p>
+  </div>
 </div>
 
 <div id="pageTwoContent">
-
-  <h2>Professional Experience and volunteering</h2>
-
-  <h3>Software Engineer</h3>
-  <div>Tracerco - July 2019 - Present</div>
-
-  <ul>
-    <li>
-      Started as a Associate Software Engineer, but was promoted to my current
-      role in 2021
-    </li>
-    <li>
-      Have worked on mobile applications, desktop applications, and web apps,
-      all of which communicate to real-life devices
-    </li>
-    <li>Experience as a scrum master on the companies first SASS solution</li>
-  </ul>
-
-  <h3>Ramblers: Digital Secretary (volunteer role)</h3>
-  <div>Northumbria Walking Group - Mar 2023 - Present</div>
-
-  <ul>
-    <li>
-      Elected in to work alongside other commitee members to run a
-      self-organised ramblers group. Together we raise money for charity and
-      make the outdoors more accessible to our 150+ members.
-    </li>
-    <li>
-      My role is to deminish the digital divide within the group.
-      <ul>
-        <li>Updating the website</li>
-        <li>Growing the social media</li>
-        <li>Tracking memberships</li>
-        <li>Making the group accessible to new members</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>Lego: Master Builder (volunteer role)</h3>
-  <div>Brick Alley RLUG (Recognised Lego User Group) - June 2022 - Present</div>
-  <ul>
-    <li>
-      Volunteer at Lego conventions accross the UK, building and displaying
-      large-scale models, raising money for childrens charities
-    </li>
-  </ul>
-
-  <h2>Qualifications</h2>
-
-  <h3>Certifed Scrum Master</h3>
-  <div>Scrum Alliance - April 2024</div>
-
-  <h3>Exam 70-483: Programming in C#</h3>
-  <div>Microsoft Certification - Feb 2020</div>
-
-  <h3>First Class BSC (HONS) Computer Science with Games Development</h3>
-<div>Northumbria University - Sept 2016 - July 2019</div>
-
+  <h2>Education & Certifications</h2>
+  <hgroup>
+    <h3>Certified Scrum Master</h3>
+    <h4>April 2024 | Scrum Alliance</h4>
+  </hgroup>
+  <hgroup>
+    <h3>Programming in C#, <span>Exam 70-483</span></h3>
+    <h4>February 2020 | Microsoft Certification</h4>
+  </hgroup>
+  <hgroup>
+    <h3>First Class BSC (HONS), <span>Computer Science with Games Development</span></h3>
+    <h4>September 2016 - July 2019 | Northumbria University</h4>
+  </hgroup>
 </div>
