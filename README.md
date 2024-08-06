@@ -37,7 +37,14 @@
   <h2>Professional Experience & volunteering</h2>
   <div>  
     <hgroup>
-      <h3>Tracerco, <span>Software Engineer</span></ y to collect data on the inner workings of distilation towers, engineers then use this data to create reports on the state of the towers with recomendations for any maintanence and repairs. My prototype took the report data and used D3.js to create an interactable tower drawing embedded within a web portal, allowing customers to fully visualise and interpret the engineer's findings. Following my contributions, the Insights Platform has gone on to become one of Tracerco's most successful products and has recieved significant recognition by winning the "Teesside Innovation Award" in July 2023.
+      <h3>Tracerco, <span>Software Engineer</span></h3>
+      <h4>July 2019 - Present | Billingham, Teesside</h4>
+    </hgroup>
+    <p>
+      At Tracerco I work on and lead multiple full-stack projects covering desktop, mobile and web applications. One noteable project is DoseVision2, a Software as a Service (SAAS) product, which allows organisations to montior and manage the radiation exposure of their employees. I acted as the lead developer on this project, seeing it through end-to-end and my roles & responsibilities on it included: managing multiple other software engineers; collaborating with UX, firmware and hardware teams, stakeholders and a product owner; and implementing core functionality, such as interfacing with dosimeters and synchronsing data to & from our API.
+    </p>
+    <p>
+      Another significant contribution to the buisness I've made is to design and implement a prototype for the interactive reports used for Tracerco's Insights Platform. One of our buisness's core services is to use tomography to collect data on the inner workings of distilation towers, engineers then use this data to create reports on the state of the towers with recomendations for any maintanence and repairs. My prototype took the report data and used D3.js to create an interactable tower drawing embedded within a web portal. This allows customers to fully visualise and interpret the engineer's findings. Following my contributions, the Insights Platform has gone on to become one of Tracerco's most successful products and has recieved significant recognition by winning the "Teesside Innovation Award" in July 2023.
     </p>
   </div>
 
