@@ -113,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <html>
                     <head>
                         <title>Okay this is kind of a hack</title>
+                        <link rel="stylesheet" href="tailwind-input.css">
                         <link rel="stylesheet" href="embedded-cv.css">
                     </head>
                     <body class="cv-content">

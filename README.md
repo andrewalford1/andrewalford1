@@ -5,23 +5,30 @@
     <h2>Full-stack software engineer</h2>
   </hgroup>
 
-  <p>Introductory text</p>
+  <div class="skills">
+    <ul>
+      <li>C#</li>
+      <li>WPF</li>
+      <li>ASP.net</li>
+      <li>Angular</li>
+      <li>Tailwind</li>
+      <li>Scrum</li>
+      <li>Azure DevOps</li>
+    </ul>
+  </div>
+
 
   <address>
-    <p><a href="tel:+1234567890">07450746002</a></p>
-    <p><a href="mailto:johndoe@example.com">andrewalford1@outlook.com</a></p>
-    <p><a href="https://andrewalford1.github.io/andrewalford1">https://andrewalford1.github.io/andrewalford1</a></p>
+    <ul>
+      <li><a href="tel:+1234567890">07450746002</a></li>
+      <li><a href="mailto:johndoe@example.com">andrewalford1@outlook.com</a></li>
+      <li><a href="https://andrewalford1.github.io/andrewalford1">https://andrewalford1.github.io/andrewalford1</a></li>
+    </ul>
   </address>
 
-  <ul>
-    <li>C#</li>
-    <li>WPF</li>
-    <li>ASP.net</li>
-    <li>Angular</li>
-    <li>Tailwind</li>
-    <li>Scrum</li>
-    <li>Azure DevOps</li>
-  </ul>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
 
   <h2>Professional Experience & volunteering</h2>
   <div>  
@@ -29,7 +36,9 @@
       <h3>Tracerco, <span>Software Engineer</span></h3>
       <h4>July 2019 - Present | Billingham, Teeside</h4>
     </hgroup>
-    <p>Roles & stuff at this job</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
   </div>
 
   <div>  
@@ -37,7 +46,9 @@
       <h3>Northumbria Walking Group, <span>Digital Secretary</span></h3>
       <h4>March 2023 - Present | volunteer role</h4>
     </hgroup>
-    <p>Roles & stuff</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
   </div>
 
   <div>  
@@ -45,7 +56,9 @@
       <h3>Brick Alley, <span>Group Member</span></h3>
       <h4>June 2022 - Present | volunteer role</h4>
     </hgroup>
-    <p>Roles & stuff</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
   </div>
 </div>
 
