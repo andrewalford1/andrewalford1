@@ -447,7 +447,6 @@ video {
 }
 
 dialog[open] {
-  height: 75%;
   width: 66.666667%;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
@@ -459,6 +458,10 @@ dialog[open] {
 
 dialog[open]::backdrop {
   background-color: rgb(0 0 0 / 0.75);
+}
+
+dialog[open] {
+  height: 800px
 }
 
 .cv-content {
@@ -718,14 +721,14 @@ dialog[open]::backdrop {
   margin-right: 2rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-8 {
@@ -738,14 +741,6 @@ dialog[open]::backdrop {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .flex {
@@ -772,8 +767,8 @@ dialog[open]::backdrop {
   height: 100%;
 }
 
-.h-64 {
-  height: 16rem;
+.w-16 {
+  width: 4rem;
 }
 
 .w-24 {
@@ -791,18 +786,6 @@ dialog[open]::backdrop {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .flex-1 {
@@ -873,11 +856,6 @@ dialog[open]::backdrop {
 
 .to-slate-700 {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-center {
