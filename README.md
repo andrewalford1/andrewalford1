@@ -102,7 +102,7 @@
       As part of my degree, I worked on many projects for both Games and Animation modules. These projects utilised numerous technologies such as Unity, Unreal Engine, C++, C# and THREE.JS.
     </p>
     <p>
-    Whilst at University, I also designed and implemented CPU Online, a web-based CPU simulator. Written in Unity and C#, CPU Online was designed to educate students on the fundamentals of computer science. This work carried out as part of my undergraduate dissertation.
+    Whilst at University, I also designed and implemented CPU Online, a web-based CPU simulator. Written in Unity and C#, CPU Online was designed to educate students on the fundamentals of computer science. This work was carried out as part of my undergraduate dissertation.
     </p>
     <p>
       In addition to my degree, <b>I also hold three A-Levels</b> in Mathematics, Computing and Design & Technology.
