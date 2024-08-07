@@ -723,6 +723,11 @@ dialog[open]::backdrop {
   margin-bottom: 2rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -733,6 +738,14 @@ dialog[open]::backdrop {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -759,6 +772,10 @@ dialog[open]::backdrop {
   height: 100%;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -776,6 +793,18 @@ dialog[open]::backdrop {
   width: max-content;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -790,6 +819,10 @@ dialog[open]::backdrop {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -840,6 +873,11 @@ dialog[open]::backdrop {
 
 .to-slate-700 {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-center {
