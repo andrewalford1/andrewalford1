@@ -512,6 +512,9 @@ dialog[open]::backdrop {
       display: flex;
     }
     ul {
+      list-style-type: none;
+    }
+    ul {
       flex-direction: column;
     }
     ul {
@@ -520,6 +523,18 @@ dialog[open]::backdrop {
   }
   p {
     margin-bottom: 0.5rem;
+  }
+  b {
+    font-weight: 700;
+  }
+  ul {
+    margin-left: 1rem;
+  }
+  ul {
+    margin-bottom: 0.5rem;
+  }
+  ul {
+    list-style-type: disc;
   }
   .skills {
     margin-bottom: 1rem;
@@ -539,6 +554,9 @@ dialog[open]::backdrop {
   .skills {
     ul {
       display: flex;
+    }
+    ul {
+      list-style-type: none;
     }
     ul {
       flex-direction: row;
