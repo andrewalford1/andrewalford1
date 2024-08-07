@@ -31,8 +31,8 @@
     I am a full-stack software engineer, and certified Scrum Master, from Newcastle upon Tyne who specialises in dotnet development. I have experiance in the Measurements Insights industry, producing best-in-class applications for desktop, mobile and web. Outside of the office I am passionate about volunteering, hiking, building Lego, board gaming and cinema.
   </p>
 
-  <h2>Professional Experience & volunteering</h2>
-  <div class="page-break">  
+  <h2>Professional Experience</h2>
+  <div>  
     <hgroup>
       <h3>Tracerco, <span>Software Engineer</span></h3>
       <h4>July 2019 - Present | Billingham, Teesside</h4>
@@ -52,7 +52,10 @@
       Another significant contribution to the buisness I've made is to design and implement a prototype for the interactive reports used for Tracerco's Insights Platform. My prototype took legacy report data on customer's distillation towers and used D3.js to create an interactable CAD model embedded within a web portal. Following my contributions, the Insights Platform has gone on to become one of Tracerco's most successful products and has recieved <b>significant recognition by winning the "Teesside Innovation Award" in July 2023</b>.
     </p>
   </div>
+</div>
 
+<div id="pageTwoContent">
+  <h2>Volunteering</h2>
   <div>  
     <hgroup>
       <h3>Northumbria Walking Group, <span>Digital Secretary</span></h3>
@@ -62,9 +65,6 @@
       Elected to work alongside other committee members, together <b>we run a self-organised Ramblers Chartiy group of 100+ members</b>. As part of my volunteering role I am responsible for both organising and leading walks. On top of this, I also manage our group's website, MeetUp account and user's memberships.
     </p>
   </div>
-</div>
-
-<div id="pageTwoContent">
   <div>  
     <hgroup>
       <h3>Brick Alley, <span>Group Member</span></h3>
