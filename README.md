@@ -28,7 +28,7 @@
   </address>
 
   <p>
-    I am a full-stack software engineer, and certified Scrum Master, from Newcastle upon Tyne who specialises in dotnet development. I have experience in the Measurements Insights industry, producing best-in-class applications for desktop, mobile and web. Outside of the office I am passionate about volunteering, hiking, building Lego, board gaming and cinema.
+    I am a full-stack software engineer, and certified Scrum Master, from Newcastle upon Tyne who specialises in dotnet development. I have experience in the Measurements Insights industry, producing best-in-class applications for desktop, mobile and web. Outside of the office, I am passionate about volunteering, hiking, building Lego, board gaming and cinema.
   </p>
 
   <h2>Professional Experience</h2>
