@@ -32,7 +32,7 @@
   </p>
 
   <h2>Professional Experience & volunteering</h2>
-  <div>  
+  <div class="page-break">  
     <hgroup>
       <h3>Tracerco, <span>Software Engineer</span></h3>
       <h4>July 2019 - Present | Billingham, Teesside</h4>

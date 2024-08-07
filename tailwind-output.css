@@ -578,6 +578,11 @@ dialog[open] {
       row-gap: 0.5rem;
     }
   }
+  @media print {
+    .page-break {
+      page-break-after: always;
+    }
+  }
 }
 
 *, ::before, ::after {
@@ -731,6 +736,10 @@ dialog[open] {
   margin-bottom: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -741,10 +750,6 @@ dialog[open] {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -761,6 +766,10 @@ dialog[open] {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-96 {
@@ -783,13 +792,12 @@ dialog[open] {
   width: 8rem;
 }
 
-.w-full {
-  width: 100%;
+.w-8 {
+  width: 2rem;
 }
 
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -871,6 +879,10 @@ dialog[open] {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
 }
 
+.p-0\.5 {
+  padding: 0.125rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -899,14 +911,14 @@ dialog[open] {
   font-weight: 700;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
