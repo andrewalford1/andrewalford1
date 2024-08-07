@@ -28,7 +28,7 @@
   </address>
 
   <p>
-    I am a full-stack software engineer, and certified Scrum Master, from Newcastle upon Tyne who specialises in dotnet development. I have experiance in the Measurements Insights industry, producing best-in-class applications for desktop, mobile and web. Outside of the office I am passionate about volunteering, hiking, building Lego, board gaming and cinema.
+    I am a full-stack software engineer, and certified Scrum Master, from Newcastle upon Tyne who specialises in dotnet development. I have experience in the Measurements Insights industry, producing best-in-class applications for desktop, mobile and web. Outside of the office I am passionate about volunteering, hiking, building Lego, board gaming and cinema.
   </p>
 
   <h2>Professional Experience</h2>
@@ -49,7 +49,7 @@
       <li>and implementing core functionality, such as interfacing with PEDs and synchronising data to and from our API.</li>
     </ul>
     <p>
-      Another significant contribution to the buisness I've made is to design and implement a prototype for the interactive reports used for Tracerco's Insights Platform. My prototype took legacy report data on customer's distillation towers and used D3.js to create an interactable CAD model embedded within a web portal. Following my contributions, the Insights Platform has gone on to become one of Tracerco's most successful products and has recieved <b>significant recognition by winning the "Teesside Innovation Award" in July 2023</b>.
+      Another significant contribution to the business I've made is to design and implement a prototype for the interactive reports used for Tracerco's Insights Platform. My prototype took legacy report data on customer's distillation towers and used D3.js to create an interactable CAD model embedded within a web portal. Following my contributions, the Insights Platform has gone on to become one of Tracerco's most successful products and has received <b>significant recognition by winning the "Teesside Innovation Award" in July 2023</b>.
     </p>
   </div>
 </div>
@@ -62,7 +62,7 @@
       <h4>March 2023 - Present | volunteer role</h4>
     </hgroup>
     <p>
-      Elected to work alongside other committee members, together <b>we run a self-organised Ramblers Chartiy group of 100+ members</b>. As part of my volunteering role I am responsible for both organising and leading walks. On top of this, I also manage our group's website, MeetUp account and user's memberships.
+      Elected to work alongside other committee members, together <b>we run a self-organised Ramblers Charity group of 100+ members</b>. As part of my volunteering role, I am responsible for both organising and leading walks. On top of this, I also manage our group's website, Meetup account and user's memberships.
     </p>
   </div>
   <div>  
@@ -71,10 +71,10 @@
       <h4>June 2022 - Present | volunteer role</h4>
     </hgroup>
     <p>
-      Brick Alley is one of the few RLUGs (Recognised Lego User Groups) in the UK, as part of the group <b>I build and display large-scale Lego models which are showcased in meseums and fan conventions all over the country</b>. This is all in an effort to raise money for our selected children's charities: Fairy Bricks & Holy Rood House. 
+      Brick Alley is one of the few RLUGs (Recognised Lego User Groups) in the UK, as part of the group <b>I build and display large-scale Lego models which are showcased in museums and fan conventions all over the country</b>. This is to raise money for our selected children's charities: Fairy Bricks & Holy Rood House. 
     </p>
     <p>
-      In addition, the charity work I do through Brick Alley, in 2023 I also personally <b>raised £820</b> for Fairy Bricks via a sponsored trek accross a portion of Hadrian's Wall.
+      In addition, the charity work I do through Brick Alley, in 2023 I also personally <b>raised £820</b> for Fairy Bricks via a sponsored trek across a portion of Hadrian's Wall.
     </p>
   </div>
 
@@ -99,7 +99,7 @@
       <h4>September 2016 - July 2019 | Northumbria University</h4>
     </hgroup>
     <p>
-      As part of my degree I worked on many projects for both Games and Animation modules. These projects utalised numerous technologies such as Unity, Unreal Engine, C++, C# and THREE.JS.
+      As part of my degree, I worked on many projects for both Games and Animation modules. These projects utilised numerous technologies such as Unity, Unreal Engine, C++, C# and THREE.JS.
     </p>
     <p>
     Whilst at University, I also designed and implemented CPU Online, a web-based CPU simulator. Written in Unity and C#, CPU Online was designed to educate students on the fundamentals of computer science. This work carried out as part of my undergraduate dissertation.
