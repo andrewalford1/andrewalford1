@@ -743,6 +743,10 @@ dialog[open] {
   margin-top: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -794,6 +798,10 @@ dialog[open] {
 
 .basis-full {
   flex-basis: 100%;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .grid-cols-1 {
