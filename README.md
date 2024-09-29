@@ -87,10 +87,6 @@
     <h3>Programming in C#, <span>Exam 70-483</span></h3>
     <h4>February 2020 | Microsoft Certification</h4>
   </hgroup>
-  <hgroup>
-    <h3>First Class BSC (HONS), <span>Computer Science with Games Development</span></h3>
-    <h4>September 2016 - July 2019 | Northumbria University</h4>
-  </hgroup>
 
   <h2>Education</h2>
   <div>  
