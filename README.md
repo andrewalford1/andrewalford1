@@ -7,9 +7,9 @@
   <div class="skills">
     <ul>
       <li>C#</li>
-      <li>WPF</li>
-      <li>Blazor</li>
       <li>ASP.net</li>
+      <li>Entity Framework</li>
+      <li>SQL</li>
       <li>Angular</li>
       <li>Tailwind</li>
       <li>Storybook</li>
@@ -37,7 +37,7 @@
       <h4>July 2019 - Present | Billingham, Teesside</h4>
     </hgroup>
     <p>
-      At Tracerco I work on and lead multiple full-stack projects covering desktop, mobile and web applications. We're a dotnet-based company, using Azure, ASP.net, WPF and Angular.
+      At Tracerco I work on and lead multiple full-stack projects covering desktop, mobile and web applications. We're a dotnet-based company, using Azure, ASP.net, Entity Framework, WPF, Angular and Tailwind.
     </p>
     <p>
       Here I have acted as the <b>lead developer</b> on DoseVision2, a Software as a Service (SAAS) product, which I saw through from conception to completion. Our service allows organisations to monitor and manage the radiation exposure of it's employees from anywhere in the world via sophisticated Personal Electronic Dosimeters (PEDs) which sync up to a cloud web portal through desktop and mobile applications. My roles and responsibilities on this product included:
