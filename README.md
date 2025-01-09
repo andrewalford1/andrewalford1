@@ -1,4 +1,3 @@
-
 <div id="pageOneContent" class="page-break">
   <hgroup>
     <h1>Andrew Alford</h1>
@@ -9,11 +8,11 @@
     <ul>
       <li>C#</li>
       <li>WPF</li>
-      <li>Xamarin</li>
       <li>Blazor</li>
       <li>ASP.net</li>
       <li>Angular</li>
       <li>Tailwind</li>
+      <li>Storybook</li>
       <li>Scrum</li>
       <li>Azure</li>
     </ul>
@@ -38,10 +37,10 @@
       <h4>July 2019 - Present | Billingham, Teesside</h4>
     </hgroup>
     <p>
-      At Tracerco I work on and lead multiple full-stack projects covering desktop, mobile and web applications. We're a dotnet-based company, using Azure, WPF, Xamarin, ASP.net and Angular.
+      At Tracerco I work on and lead multiple full-stack projects covering desktop, mobile and web applications. We're a dotnet-based company, using Azure, ASP.net, WPF and Angular.
     </p>
     <p>
-      I acted as the <b>lead developer</b> on DoseVision2, a Software as a Service (SAAS) product, which I saw through from conception to completion. Our service allows organisations to monitor and manage the radiation exposure of it's employees from anywhere in the world via sophisticated Personal Electronic Dosimeters (PEDs) which sync up to a cloud web portal through desktop and mobile applications. My roles and responsibilities on this product included:
+      Here I have acted as the <b>lead developer</b> on DoseVision2, a Software as a Service (SAAS) product, which I saw through from conception to completion. Our service allows organisations to monitor and manage the radiation exposure of it's employees from anywhere in the world via sophisticated Personal Electronic Dosimeters (PEDs) which sync up to a cloud web portal through desktop and mobile applications. My roles and responsibilities on this product included:
     </p>
     <ul>
       <li>Coordinating a Scrum team of both software engineers and UX developers</li>
@@ -55,29 +54,6 @@
 </div>
 
 <div id="pageTwoContent">
-  <h2>Volunteering</h2>
-  <div>  
-    <hgroup>
-      <h3>Northumbria Walking Group, <span>Digital Secretary</span></h3>
-      <h4>March 2023 - Present | volunteer role</h4>
-    </hgroup>
-    <p>
-      Elected to work alongside other committee members, together <b>we run a self-organised Ramblers Charity group of 100+ members</b>. As part of my volunteering role, I am responsible for both organising and leading walks. On top of this, I also manage our group's website, Meetup account and user's memberships.
-    </p>
-  </div>
-  <div>  
-    <hgroup>
-      <h3>Brick Alley, <span>Group Member</span></h3>
-      <h4>June 2022 - Present | volunteer role</h4>
-    </hgroup>
-    <p>
-      Brick Alley is one of the few RLUGs (Recognised Lego User Groups) in the UK, as part of the group <b>I build and display large-scale Lego models which are showcased in museums and fan conventions all over the country</b>. This is to raise money for our selected children's charities: Fairy Bricks & Holy Rood House. 
-    </p>
-    <p>
-      In addition to the charity work I do through Brick Alley, in 2023 I also personally <b>raised £820</b> to purchase Lego for children in hospital care via a sponsored trek across a portion of Hadrian's Wall.
-    </p>
-  </div>
-
   <h2>Certifications</h2>
   <hgroup>
     <h3>Certified Scrum Master</h3>
@@ -102,6 +78,28 @@
     </p>
     <p>
       In addition to my degree, <b>I also hold three A-Levels</b> in Mathematics, Computing and Design & Technology.
+    </p>
+  </div>
+  <h2>Volunteering</h2>
+  <div>  
+    <hgroup>
+      <h3>Northumbria Walking Group, <span>Digital Secretary</span></h3>
+      <h4>March 2023 - Present | volunteer role</h4>
+    </hgroup>
+    <p>
+      Elected to work alongside other committee members, together <b>we run a self-organised Ramblers Charity group of 100+ members</b>. As part of my volunteering role, I am responsible for both organising and leading walks. On top of this, I also manage our group's website, Meetup account and user's memberships.
+    </p>
+  </div>
+  <div>  
+    <hgroup>
+      <h3>Brick Alley, <span>Group Member</span></h3>
+      <h4>June 2022 - Present | volunteer role</h4>
+    </hgroup>
+    <p>
+      Brick Alley is one of the few RLUGs (Recognised Lego User Groups) in the UK, as part of the group <b>I build and display large-scale Lego models which are showcased in museums and fan conventions all over the country</b>. This is to raise money for our selected children's charities: Fairy Bricks & Holy Rood House. 
+    </p>
+    <p>
+      In addition to the charity work I do through Brick Alley, in 2023 I also personally <b>raised £820</b> to purchase Lego for children in hospital care via a sponsored trek across a portion of Hadrian's Wall.
     </p>
   </div>
 </div>
